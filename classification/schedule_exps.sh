@@ -62,7 +62,7 @@ for method in tent; do
                                     running_gpu="$running_gpu $avaible_gpu"
                                     echo running_gpu: $running_gpu;
                                     # main task (You need to modify the below line)
-                                    bash ./run_one_exp_base.sh $avaible_gpu $method $algo $ratio "${objective} ${options}" $dist
+                                    bash ./run_one_exp_base.sh $avaible_gpu $method $algo $ratio "${objective} ${options}" $dist > ./log/CIFAR10_${method}_${algo}_${objective}__${dist}_${ratio}.log &
                                     ##
                                     running_pid="$running_pid $!"
                                     echo running_pid: $running_pid;
