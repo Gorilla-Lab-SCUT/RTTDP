@@ -33,6 +33,7 @@ function sub(){
 # This is a queue storing which gpus you want to listen and use.
 USE_GPU=(0 1 2 3 4 5 6 7);
 
+mkdir -p ./log
 
 # ===================================
 
