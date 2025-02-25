@@ -1,0 +1,11 @@
+timm==0.9.7
+pandas
+git+https://github.com/fra31/auto-attack
+webdataset==0.2.86
+iopath==0.1.9
+yacs==0.1.8
+h5py
+advertorch
+torch-scatter -f https://data.pyg.org/whl/torch-2.3.0+cu121.html
+setproctitle
+scipy
