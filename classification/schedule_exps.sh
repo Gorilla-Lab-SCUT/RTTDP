@@ -41,7 +41,7 @@ running_pid=""
 
 # tent rpl eata ttac sar cotta roid
 for method in tent; do
-# SurrogateModelEstimateAttack SurrogateModelEstimateAttack NoAttack
+# SurrogateModelEstimateAttack SurrogateModelPGDAttack NoAttack
 # adversarial attack methods (objective: "[]"): SurrogateModelAutoAttack SurrogateModelGMSAMINAttack SurrogateModelUnlearnableAttack SurrogateModelAdvPoisoningAttack SurrogateModelGMSAAvgAttack
     for algo in SurrogateModelEstimateAttack; do
         for ratio in 0.5; do
